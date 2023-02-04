@@ -3,7 +3,6 @@ import json
 
 keyFile = open('keys', 'r')
 api_key = keyFile.readline().rstrip()
-print(api_key)
 
 api_endpoint = "https://api.openweathermap.org/data/2.5/weather"
 
